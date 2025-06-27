@@ -1,12 +1,36 @@
-# React + Vite
+# 🔗 React URL Shortener – Campus Hiring Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional, production-style *React URL Shortener* built as part of a campus hiring evaluation challenge.  
+The app allows users to shorten URLs (up to 5 at once), track usage statistics, and manage everything with clean client-side logic using React, Material UI, and localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- ✅ Shorten up to 5 URLs concurrently
+- ✅ Optionally set validity (in minutes)
+- ✅ Provide custom shortcodes (or auto-generate them)
+- ✅ Client-side routing-based redirection
+- ✅ Tracks and displays analytics (click count, timestamps, source, mock geo)
+- ✅ Custom logging middleware (no console.log used)
+- ✅ Material UI based, responsive and clean UI
+- ✅ Fully frontend-powered using localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙ Tech Stack
+
+| Part         | Tech                    | Why |
+|--------------|-------------------------|-----|
+| Frontend     | React (Vite)            | Fast, modern, modular |
+| Styling      | Material UI             | Clean, constraint-compliant |
+| Routing      | React Router DOM        | Required for /shortcode routing |
+| State Mgmt   | useState, useEffect     | Lightweight and perfect for this scope |
+| Logging      | Custom Context Middleware | Per requirement (no console.log) |
+| Storage      | localStorage            | For storing URL data + logs |
+
+---
+👨‍💻 Developed By
+Jayant Deshwal
+Candidate for Campus Hiring (React Developer Role)
+Tech Enthusiast • React Lover • Frontend Sorcerer ⚛✨
